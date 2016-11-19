@@ -1,12 +1,12 @@
-# pngquant-bin [![Build Status](https://travis-ci.org/imagemin/pngquant-bin.svg?branch=master)](https://travis-ci.org/imagemin/pngquant-bin)
+# jdf-png
 
-> pngquant is a command-line utility for converting 24/32-bit PNG images to paletted (8-bit) PNGs. The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency.
+> A pngquant wrapper for JDF
 
 
 ## Install
 
 ```
-$ npm install --save pngquant-bin
+$ npm install --save jdf-png
 ```
 
 
@@ -14,7 +14,7 @@ $ npm install --save pngquant-bin
 
 ```js
 const execFile = require('child_process').execFile;
-const pngquant = require('pngquant-bin');
+const pngquant = require('jdf-png');
 
 execFile(pngquant, ['-o', 'output.png', 'input.png'], err => {
 	console.log('Image minified!');
@@ -25,14 +25,9 @@ execFile(pngquant, ['-o', 'output.png', 'input.png'], err => {
 ## CLI
 
 ```
-$ npm install --global pngquant-bin
+$ npm install --global jdf-png
 ```
 
 ```
-$ pngquant --help
+$ jdf-png --help
 ```
-
-
-## License
-
-MIT © [imagemin](https://github.com/imagemin)

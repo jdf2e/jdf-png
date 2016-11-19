@@ -1,34 +1,22 @@
 {
-  "name": "pngquant-bin",
-  "version": "3.1.1",
-  "description": "pngquant wrapper that makes it seamlessly available as a local dependency",
+  "name": "jdf-png",
+  "version": "0.0.1",
+  "description": "A pngquant wrapper for JDF",
   "license": "MIT",
-  "repository": "imagemin/pngquant-bin",
+  "repository": "jdf2e/jdf-png",
   "author": {
-    "name": "Kevin Mårtensson",
-    "email": "kevinmartensson@gmail.com",
-    "url": "github.com/kevva"
+    "name": "jdf2e",
+    "email": "wshxbqq@gmail.com",
+    "url": "github.com/wshxbqq"
   },
-  "maintainers": [
-    {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
-    {
-      "name": "Shinnosuke Watanabe",
-      "url": "github.com/shinnn"
-    }
-  ],
   "engines": {
     "node": ">=0.10.0"
   },
   "bin": {
-    "pngquant": "cli.js"
+    "jdf-png": "cli.js"
   },
   "scripts": {
-    "postinstall": "node lib/install.js",
-    "test": "xo && mocha"
+    "postinstall": "node lib/install.js"
   },
   "files": [
     "cli.js",
@@ -44,16 +32,6 @@
     "png"
   ],
   "dependencies": {
-    "bin-build": "^2.0.0",
-    "bin-wrapper": "^3.0.0",
-    "logalot": "^2.0.0"
-  },
-  "devDependencies": {
-    "bin-check": "^2.0.0",
-    "compare-size": "^1.0.0",
-    "mkdirp": "^0.5.0",
-    "mocha": "^2.2.4",
-    "rimraf": "^2.3.2",
-    "xo": "*"
+    "bin-wrapper": "^3.0.2"
   }
 }
