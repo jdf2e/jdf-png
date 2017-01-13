@@ -1,6 +1,6 @@
 {
   "name": "jdf-png",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A pngquant wrapper for JDF",
   "license": "MIT",
   "repository": "jdf2e/jdf-png",
