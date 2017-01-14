@@ -1,37 +1,40 @@
 {
-  "name": "jdf-png",
-  "version": "0.0.2",
-  "description": "A pngquant wrapper for JDF",
-  "license": "MIT",
-  "repository": "jdf2e/jdf-png",
-  "author": {
-    "name": "jdf2e",
-    "email": "wshxbqq@gmail.com",
-    "url": "github.com/jdf2e"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "bin": {
-    "jdf-png": "cli.js"
-  },
-  "scripts": {
-    "postinstall": "node lib/install.js"
-  },
-  "files": [
-    "cli.js",
-    "index.js",
-    "lib"
-  ],
-  "keywords": [
-    "compress",
-    "image",
-    "img",
-    "minify",
-    "optimize",
-    "png"
-  ],
-  "dependencies": {
-    "bin-wrapper": "^3.0.2"
-  }
+    "name": "jdf-png",
+    "version": "0.0.3",
+    "description": "A pngquant wrapper for JDF",
+    "license": "MIT",
+    "repository": "jdf2e/jdf-png",
+    "author": {
+        "name": "jdf2e",
+        "email": "wshxbqq@gmail.com",
+        "url": "github.com/jdf2e"
+    },
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "bin": {
+        "jdf-png": "cli.js"
+    },
+    "scripts": {
+        "postinstall": "node lib/install.js",
+        "test": "node test/index.js"
+    },
+    "files": [
+        "index.js",
+        "cli.js",
+        "lib"
+    ],
+    "keywords": [
+        "jdf",
+        "jdfx",
+        "png",
+        "img",
+        "image",
+        "compress",
+        "minify",
+        "optimize"
+    ],
+    "dependencies": {
+        "bin-wrapper": "^3.0.2"
+    }
 }
